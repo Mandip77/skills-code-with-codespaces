@@ -1,4 +1,5 @@
 {
   "name": "Basic Dev Environment",
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:debian"
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
+  "postCreateCommand": ".devcontainer/postCreate.sh"
 }
